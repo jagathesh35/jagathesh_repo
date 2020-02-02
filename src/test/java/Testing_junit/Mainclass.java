@@ -18,6 +18,7 @@ public class Mainclass extends Baseclass {
 		f2.sendKeys(getdata(0,1));
 		WebElement f3=driver.findElement(By.id("loginbutton"));
 		f3.click();
+		System.out.println("Excel integration successfully done");
 	}
 	
 		
